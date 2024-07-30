@@ -1,0 +1,37 @@
+===Phù hợp với các phiên bản phần mềm mới nhất hiện tại
+Cần có anaconda cài đặt môi trường python=3.8
+Cần có nodejs
+1./ Kết nối mạng
+2./ Chạy model, server python:
+- Kích hoạt môi trường conda activate [name env]
+- Cài đặt package với lệnh: pip install -r requirements.txt
+- Chạy file python main.py
+- Xem IP
+
+3./ Vào file huit-mobile/config/config.js
+- Chỉnh lại URL_DETECT = IP (bên trên)
+4./ Vào lại folder "huit-mobile"
+- npm install hoặc yarn install (npm install --global yarn)
+- npm start (npm fix --force nếu cần)
+
+5./ Tải expo go trên android:
+- Scan QR
+- Vào app
+
+
+==============
+Full hướng dẫn cài đặt trong điều kiện có conda & nodejs
+Folder "model":
+conda create -n ai python=3.8 -y
+conda activate ai
+pip install tensorflow numpy Flask Pillow opencv-python
+
+Folder "huit-mobile":
+npm install or yarn install (npm install --global yarn)
+npm start
+
+Lưu ý:
+Folder "test" trong folder "model" là folder hỗ trợ trong việc "kiểm tra model" và dữ liệu test trong đó
+
+
+@Email: nguyentrongdangkhoa15@gmail.com

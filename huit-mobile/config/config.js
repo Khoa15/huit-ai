@@ -1,0 +1,1 @@
+export const URL_DETECT = 'http://192.168.0.3:5000';
