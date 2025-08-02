@@ -26,9 +26,11 @@ conda create -n ai python=3.8 -y
 conda activate ai
 pip install tensorflow numpy Flask Pillow opencv-python
 
-Folder "huit-mobile":
+Folder "fe:
 npm install or yarn install (npm install --global yarn)
 npm start
++Hoặc cài đặt bằng docker:
+docker build -t fe:latest .
 
 Lưu ý:
 Folder "test" trong folder "model" là folder hỗ trợ trong việc "kiểm tra model" và dữ liệu test trong đó
